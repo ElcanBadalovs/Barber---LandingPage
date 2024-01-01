@@ -1,0 +1,40 @@
+.slick-dots{
+    position: relative !important;
+}
+
+.slick-track{
+    display: flex !important;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (min-width: 900px){
+    .slick-dots{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }    
+    .slick-slide, .slick-active, .slick-current{
+        display: flex !important;
+        justify-content: center;
+        div{
+            display: flex !important;
+            justify-content: center;
+        }
+    }
+}
+
+@media (min-width: 1024px){
+    .slick-slide, .slick-active, .slick-current{
+        width: auto !important;
+        display: flex !important;
+        justify-content: center;
+        div{
+            display: flex !important;
+            justify-content: center;
+        }
+    }
+    .slick-track{
+        gap: initial;
+    }
+}
