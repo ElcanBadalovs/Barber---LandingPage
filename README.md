@@ -1,1 +1,2 @@
-[Demo Page](https://barber-landing-page.netlify.app){: style="font-size: 21px; text-decoration: none;"}
+[Demo Page](https://barber-landing-page.netlify.app)
+<h1><a href="https://barber-landing-page.netlify.app">Demo Page</a></h1>
